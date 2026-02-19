@@ -2,7 +2,7 @@
 read -p "Enter Directory Name:" input
 project_dc=attendance_tracker_$input
 echo "${project_dc}"
-mkdir -p $project_dc
+mkdir -p "$project_dc"
 touch $project_dc/attendance_checker.py
 mkdir -p $project_dc/Helpers
 touch $project_dc/Helpers/assets.csv
@@ -12,7 +12,7 @@ touch $project_dc/reports/report.log
 
 CFIG_FILE="$project_dc/Helpers/config.json"
 
-echo "Do you want to update attendance threshols? (y/n)"
+echo "Do you want to update attendance thresholds? (y/n)"
 read answer
 
 if [ "$answer" = "y" ]; then
