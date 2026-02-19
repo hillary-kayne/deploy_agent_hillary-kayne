@@ -89,3 +89,4 @@ This script automatically:
 
 It will save your time and prevent mistakes when setting up a project.
 
+Video Link: https://youtu.be/mvcfgNFsjIw
